@@ -85,8 +85,50 @@ header {
   float: left;
   max-width: 100px;  
 }
+.logo-foot {
+  
+  max-width: 120px;
 
+}
 .icon{
   float: right;
   max-width: 100px;
+}
+
+.navbar-footer-nav {
+  overflow: hidden;
+ 
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-footer-nav a {
+  /* float: left; */
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-footer-nav a:hover {
+  background: #be1b1b;
+  color: black;
+}
+
+.navbar-footer-nav a.active {
+  background-color: #0a1559;
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-footer-nav {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
 }
