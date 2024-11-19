@@ -47,3 +47,26 @@ p {
     /* align-content: row; */
     text-align: center;
 }
+.navigation {
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation a:hover {
+  background-color: rgb(153, 17, 17);
+  color: black;
+}
+
+.navigation a.active {
+  background-color: #04AA6D;
+  color: white;
+}
