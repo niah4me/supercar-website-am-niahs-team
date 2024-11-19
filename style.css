@@ -23,6 +23,13 @@ p {
     font-weight: 400;
     font-style: normal;
   }
+  .index-header {
+    padding: 4px;
+    text-align: center;
+    background: #083782;
+    color: white;
+    font-size: 30px;
+  }
   /* the nav across the screen*/
 .navigation {
     /* display: flex;
