@@ -90,6 +90,46 @@ header {
   max-width: 120px;
 
 }
+.trionttl {
+  text-align: center;
+}
+/*words*/
+.info {
+  font-family: "Oswald", sans-serif;
+  /* font-weight: weight; */
+  font-style: normal;
+  text-align: center;
+  font-stretch: 200%;
+  font-size: large;
+  margin-bottom: 30px;
+  float: right;
+  right: 0;
+}
+.lastkpic{
+  width: 170%;
+  height: 90%;
+}
+section.row {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+  margin: 0 auto;
+}
+
+section.col.half {
+  width: 38%;
+  margin-left: 25vw;
+}
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* the icon for the person to make an account*/
 .icon{
   float: right;
   max-width: 100px;
