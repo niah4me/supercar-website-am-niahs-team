@@ -38,25 +38,19 @@ header {
   
   /* the nav across the screen*/
 .navigation {
-    /* display: flex;
-    flex-direction: row;
-  align-content: space-between; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   color: black;
   text-align: center;
-}
-
-.navigation li {
-    list-style-type: none;
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-    /* align-content: row; */
-    text-align: center;
-}
-.navigation {
   overflow: hidden;
   background-color: #ddd;
 }
+
+/* .navigation ul {
+  padding: 0;
+} */
 
 .navigation a {
   float: left;
@@ -83,53 +77,13 @@ header {
 }
 .logo{
   float: left;
-  max-width: 100px;  
+  max-width: 100px;
 }
 .logo-foot {
-  
+
   max-width: 120px;
 
 }
-.trionttl {
-  text-align: center;
-}
-/*words*/
-.info {
-  font-family: "Oswald", sans-serif;
-  /* font-weight: weight; */
-  font-style: normal;
-  text-align: center;
-  font-stretch: 200%;
-  font-size: large;
-  margin-bottom: 30px;
-  float: right;
-  right: 0;
-}
-.lastkpic{
-  width: 170%;
-  height: 90%;
-}
-section.row {
-  display: flex;
-  flex-flow: row wrap;
-  /* justify-content: space-between; */
-  margin: 0 auto;
-}
-
-section.col.half {
-  width: 38%;
-  margin-left: 25vw;
-}
-  /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /* the icon for the person to make an account*/
 .icon{
   float: right;
   max-width: 100px;
@@ -171,68 +125,4 @@ footer {
   display: flex;
   flex-direction: column;
   flex-basis: 25%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: Arial;
-}
-
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-.row {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.row2,
-.row2 > .column {
-  padding: 20px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 30%;
-}
-
-/* Clear floats after rows */
-.row2:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
 }
