@@ -1,5 +1,5 @@
 /*background*/
-.bodytype {
+body {
     background-color:#D9D9D9 ;
     display: block;
     margin: 1px;
@@ -10,7 +10,7 @@ h1 {
 }
 
 p {
-    font-size: 200%;
+  font-size: 200%;
 }
 
 .hero-txt{
@@ -28,6 +28,14 @@ p {
     font-style: normal;
   }
 
+  .inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+
 header {
     padding: 4px;
     text-align: center;
@@ -35,22 +43,26 @@ header {
     color: white;
     font-size: 30px;
   }
-  
+
+a {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
   /* the nav across the screen*/
 .navigation {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: black;
   text-align: center;
   overflow: hidden;
   background-color: #ddd;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
-
-/* .navigation ul {
-  padding: 0;
-} */
 
 .navigation a {
   float: left;
@@ -61,7 +73,7 @@ header {
   font-size: 17px;
 }
 
-.navigation a:hover {
+nav a:hover {
   background-color: rgb(153, 17, 17);
   color: black;
 }
@@ -90,25 +102,8 @@ header {
 }
 
 .navbar-footer-nav {
-  overflow: hidden;
- 
   bottom: 0;
   width: 100%;
-}
-
-.navbar-footer-nav a {
-  /* float: left; */
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar-footer-nav a:hover {
-  background: #be1b1b;
-  color: black;
 }
 
 .navbar-footer-nav a.active {
@@ -117,12 +112,40 @@ header {
 }
 
 footer {
+  background-color: #c9c8c8;
   display: flex;
   flex-direction: row;
+}
+
+.footer-text {
+  font-size: 1.5em;
+  align-self: center;
 }
 
 .navbar-footer-nav {
   display: flex;
   flex-direction: column;
   flex-basis: 25%;
+  margin-right: 7vw;
+  margin-left: 2vw;
+}
+
+.navbar-footer-nav a {
+  font-size: 2em;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 9vw;
+}
+
+.copyright {
+  margin-left: 7vw;
+  margin-right: 2vw;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width: 20vw;
+  text-align: center;
 }
