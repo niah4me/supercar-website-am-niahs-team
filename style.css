@@ -265,11 +265,13 @@ padding: 10px;
 }
 }
  
+
 /* Float four columns side by side */
 .column1 {
   float: left;
-  width: 15%;
-  padding: 0 10px;
+  width: 25%;
+  height: 25%;
+  padding: 50px 10px;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -297,4 +299,7 @@ padding: 10px;
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+}
+.mens {
+  height: 100%;
 }
