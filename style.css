@@ -103,36 +103,41 @@ max-width: 120px;
 .trionttl {
 text-align: center;
 }
-/*words*/
+
+/*Home*/
 .info {
-font-family: "Oswald", sans-serif;
-/* font-weight: weight; */
-font-style: normal;
-text-align: center;
-font-stretch: 200%;
-font-size: large;
-margin-bottom: 30px;
-float: right;
-right: 0;
+  font-family: "Jacques Francois", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-stretch: 200%;
+  font-size: large;
+  margin-bottom: 30px;
+  float: right;
+  right: 0;
 }
+
 .lastkpic{
-width: 170%;
-height: 90%;
+  width: 170%;
+  height: 90%;
 }
+
 section.row {
-display: flex;
-flex-flow: row wrap;
-/* justify-content: space-between; */
-margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+  margin: 0 auto;
 }
 
-
-section.col.half {
-width: 38%;
-margin-left: 25vw;
+.big-car-img {
+  width: 38%;
+  margin-left: 25vw;
 }
+
 /* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -140,6 +145,23 @@ margin-left: 25vw;
   display: table;
   clear: both;
 }
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .home-card {
+padding: 8px;
+}
+
+
+/* Create four equal columns that floats next to each other */
+.home-card {
+  float: left;
+  width: 25%;
+  background-color: white;
+  padding: 0.5%;
+  margin: 0 4%
+}
+
 /* the icon for the person to make an account*/
 .icon{
 float: right;
@@ -181,6 +203,7 @@ color: white;
 footer {
 display: flex;
 flex-direction: row;
+background-color: #c9c8c8;
 }
 
 
@@ -221,20 +244,6 @@ margin: 8px -16px;
 }
 
 
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-padding: 8px;
-}
-
-
-/* Create four equal columns that floats next to each other */
-.column {
-float: left;
-width: 25%;
-}
-
-
 /* Clear floats after rows */
 .row:after {
 content: "";
@@ -243,17 +252,10 @@ clear: both;
 }
 
 
-/* Content */
-.content {
-background-color: white;
-padding: 10px;
-}
-
-
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
 .column {
-  width: 50%;
+  width: 100%;
 }
 }
 
@@ -263,4 +265,58 @@ padding: 10px;
 .column {
   width: 100%;
 }
+}
+ 
+
+/* Float four columns side by side */
+.column1 {
+  float: left;
+  width: 25%;
+  height: 25%;
+  padding: 50px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-text {
+  font-family: "Jacques Francois", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+  align-self: center;
+  padding: 0 0 0 8vw;
+}
+
+.copyright {
+  font-size: medium;
+  width: 15%;
+  align-self: end;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.mens {
+  height: 100%;
 }
