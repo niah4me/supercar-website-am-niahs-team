@@ -125,6 +125,7 @@ text-align: center;
 section.row {
   display: flex;
   flex-flow: row wrap;
+  /* justify-content: space-between; */
   margin: 0 auto;
 }
 
@@ -254,7 +255,7 @@ clear: both;
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
 .column {
-  width: 50%;
+  width: 100%;
 }
 }
 
@@ -266,11 +267,13 @@ clear: both;
 }
 }
  
+
 /* Float four columns side by side */
 .column1 {
   float: left;
-  width: 15%;
-  padding: 0 10px;
+  width: 25%;
+  height: 25%;
+  padding: 50px 10px;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -313,4 +316,7 @@ clear: both;
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+}
+.mens {
+  height: 100%;
 }
