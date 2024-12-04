@@ -349,6 +349,8 @@ clear: both;
   }
 }
 
+
+/*merch*/
 /* Style the counter cards */
 .card1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -393,12 +395,16 @@ clear: both;
   padding: 5px;
 }
 
+.row3 , .row2 {
+  padding: 0%;
+}
 /* Clearfix (clear floats) */
 .row3::after {
   content: "";
   clear: both;
   display: table;
 }
+
 body {
   background-image: url(Background.png);
   background-size: 100% 100%;
@@ -418,4 +424,13 @@ body {
 .containerpr {
   padding: 2px 16px;
 }
-/*merch*/
+
+.merch-preview-main {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+.preview {
+  width: 35%;
+  margin-right: -45vw;
+}
