@@ -343,7 +343,7 @@ clear: both;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: hsl(0, 0%, 100%);
   display: block;
   margin-left: 50%;
   margin-right: 50%;
@@ -351,8 +351,10 @@ clear: both;
 
 }
 .mens {
-  height: 558px;
+  height: 720px;
+  width: 450px;
 }
+
 
 * {
   box-sizing: border-box;
@@ -390,4 +392,18 @@ body {
   background-image: url(Background.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.cardpr {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.cardpr:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.containerpr {
+  padding: 2px 16px;
 }
