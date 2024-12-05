@@ -38,6 +38,12 @@ p {
   font-style: normal;
 }
 
+.inter-uniquifier {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 header {
   padding: 4px;
@@ -48,16 +54,18 @@ header {
 }
 
 /* the nav across the screen*/
-.navigation {
-  /* display: flex;
-  flex-direction: row;
-align-content: space-between; */
-color: black;
-text-align: center;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  background-color: #ddd;
 }
 
 
-.navigation li {
+nav li {
   list-style-type: none;
   display: inline-block;
   color: black;
@@ -65,33 +73,33 @@ text-align: center;
   /* align-content: row; */
   text-align: center;
 }
-.navigation {
-overflow: hidden;
-background-color: #ddd;
-}
 
 
-.navigation a {
+nav a {
 float: left;
-color: black;
 text-align: center;
+color: black;
 padding: 14px 16px;
 text-decoration: none;
-font-size: 17px;
+font-size: 0.65em;
+font-family: "Inter", serif;
+font-weight: 400;
+font-optical-sizing: auto;
+font-style: normal;
 }
 
 
-.navigation a:hover {
+nav a:hover {
 background-color: rgb(153, 17, 17);
 color: black;
 }
 
 
-.navigation a.active {
+nav a.active {
 background-color: #04AA6D;
 color: white;
 }
-.navigation img {
+nav img {
 display:flex;
 width: 50px;
 height: 50px;
@@ -127,6 +135,7 @@ text-align: center;
   width: 170%;
   height: 90%;
 }
+
 .lastkpicn{
   width: 100%;
   height: 90%;
@@ -149,7 +158,7 @@ text-align: center;
 
 .big-car-img {
   width: 38%;
-  margin-left: 25vw;
+  margin-left: 5vw;
 }
 .big-car-img1 {
   width: 35%;
@@ -229,13 +238,13 @@ width: 100%;
 
 
 .navbar-footer-nav a {
-/* float: left; */
 display: inline-block;
 color: black;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
+background-color: #c9c8c8;
 }
 
 
@@ -243,13 +252,6 @@ font-size: 17px;
 background: #be1b1b;
 color: black;
 }
-
-
-.navbar-footer-nav a.active {
-background-color: #0a1559;
-color: white;
-}
-
 
 footer {
 display: flex;
@@ -262,6 +264,7 @@ background-color: #c9c8c8;
 display: flex;
 flex-direction: column;
 flex-basis: 25%;
+background-color: #c9c8c8;
 }
 
 
