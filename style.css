@@ -131,11 +131,6 @@ text-align: center;
   right: 0;
 }
 
-.lastkpic{
-  width: 170%;
-  height: 90%;
-}
-
 .lastkpicn{
   width: 100%;
   height: 90%;
@@ -160,9 +155,9 @@ text-align: center;
   width: 38%;
   margin-left: 5vw;
 }
-.big-car-img1 {
-  width: 35%;
-  margin-right: -45vw;
+
+.big-car {
+  width: 50%;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
