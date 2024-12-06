@@ -1,0 +1,26 @@
+.merch-preview-main {
+    display: flex;
+}
+
+.preview-main {
+    display: flex;
+    flex-flow: column;
+    width: 35%;
+}
+
+.merch-preview-img {
+    width: 100%
+}
+
+[class^=row-m] {
+    display: flex;
+}
+
+[class^=a-p] {
+    width: 100%;
+}
+
+.a-preview-main1, .a-preview-main3  {
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
