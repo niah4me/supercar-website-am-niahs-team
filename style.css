@@ -633,6 +633,18 @@ div.transbox {
   display:flex;
   flex-direction:column;
   justify-content: space-between;
-  margin-left: 1700px;
-  margin-bottom:2000px;
+  /*margin-left: 1700px;*/
+  margin-bottom: 12%;
+  position: relative;
+  right: -3vw;
+  bottom: -7vh;
+  justify-content: space-around;
   }
+  
+.buttoncon {
+  display:flex;
+  width: 145px; ;
+  font-size:31px;
+  text-align: center ;
+
+}
