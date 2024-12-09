@@ -604,3 +604,23 @@ span.price {
     margin-bottom: 20px;
   }
 }
+
+.car-pages-card1 {
+  float: left;
+  width: 25%;
+  background-color: white;
+  padding: 0.5%;
+  margin: 0 4%;
+  height: 50vh;
+  display: flex;
+  flex-flow: column;
+  border: 2px solid black;
+}
+
+.car-pages-card1 > p {
+  font-family: "Jacques Francois", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.25em;
+}
+
