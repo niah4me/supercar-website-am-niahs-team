@@ -450,6 +450,9 @@ body {
   border: solid 1px black;
 }
 
+.size-table {
+  display: flex;
+}
 /*Button css*/
 .wrap {
   padding-top: 1rem;
