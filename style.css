@@ -521,10 +521,8 @@ body {
 } */
 
 .rowco {
-  display: -ms-flexbox; /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
+  flex-flow: column;
   margin: 0 -16px;
 }
 
@@ -687,11 +685,23 @@ div.transbox {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  
+}
 .buttoncon {
   display:flex;
   width: 145px; ;
   font-size:31px;
   text-align: center ;
 
+
+}
+.bttnacc{
+width: 50%;
+height: 5vh;
+font-size: medium;
+text-align: center;
+box-shadow: 0 1px 1px 0 rgba(0,0,0,0.24), 0 1px 1px 0 rgba(0,0,0,0.19);
+align-items: center;
+padding-top: 10px;
+position: relative;
+left: 23vw;
 }
