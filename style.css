@@ -452,6 +452,12 @@ body {
 
 .size-table {
   display: flex;
+  justify-content: space-around;
+}
+
+.size-table p {
+  background-color: #c9c8c8;
+  border: solid black 1px;
 }
 /*Button css*/
 .wrap {
@@ -687,6 +693,7 @@ div.transbox {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
   
 .buttoncon {
   display:flex;
