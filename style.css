@@ -467,7 +467,6 @@ body {
   align-items: center;
   gap: 1.5rem;
   justify-content: center;
-
 }
 
 .button {
@@ -486,7 +485,7 @@ body {
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
-  }
+}
 
 .button:hover {
   background-color: #ff91a4;
