@@ -452,6 +452,12 @@ body {
 
 .size-table {
   display: flex;
+  justify-content: space-around;
+}
+
+.size-table p {
+  background-color: #c9c8c8;
+  border: solid black 1px;
 }
 /*Button css*/
 .wrap {
@@ -461,7 +467,6 @@ body {
   align-items: center;
   gap: 1.5rem;
   justify-content: center;
-
 }
 
 .button {
@@ -480,7 +485,7 @@ body {
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
-  }
+}
 
 .button:hover {
   background-color: #ff91a4;
@@ -686,6 +691,7 @@ div.transbox {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+  
 .buttoncon {
   display:flex;
   width: 145px; ;
