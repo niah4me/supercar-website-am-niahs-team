@@ -668,8 +668,9 @@ div.transbox {
   margin-bottom: 12%;
   position: relative;
   right: -3vw;
-  bottom: -7vh;
+  bottom: 1vh;
   justify-content: space-around;
+  margin-bottom: 1em;
   }
   .button1 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -710,4 +711,91 @@ align-items: center;
 padding-top: 10px;
 position: relative;
 left: 23vw;
+.buttonconcu{
+  width: 235px; ;
+  font-size:31px;
+  text-align: center ;
+  margin-top: -12px;
+  margin-left: 253px;
+}
+div.backgroundr {
+  background: white url(images/red-car.png) no-repeat center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  width: 1500px;
+}
+
+div.transboxr {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+  padding: 20px;
+  margin: 30px;
+  font-weight: bold;
+}
+div.backgroundy {
+  background: white url(images/yellow-car.png) no-repeat center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  width: 1500px;
+}
+
+div.transboxy {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+  padding: 20px;
+  margin: 30px;
+  font-weight: bold;
+}
+div.backgroundb {
+  background: white url(images/blue-car.png) no-repeat center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  width: 1500px;
+}
+
+div.transboxb {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+  padding: 20px;
+  margin: 30px;
+  font-weight: bold;
+}
+div.backgroundbk {
+  background: white url(images/black-car.png) no-repeat center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  width: 1500px;
+}
+
+div.transboxbk {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+  padding: 20px;
+  margin: 30px;
+  font-weight: bold;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/white-car.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
