@@ -416,6 +416,31 @@ body {
 }
 
 /*Merch Preview*/
+.arrow {
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.arrowpr {
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 14px;
+  margin-top: 9px;
+}
+.leftpr {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
 .merch-preview-main {
   display: flex;
   justify-content: space-around;
@@ -453,12 +478,27 @@ body {
 .size-table {
   display: flex;
   justify-content: space-around;
+ 
 }
-
 .size-table p {
   background-color: #c9c8c8;
   border: solid black 1px;
 }
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  
+}
+
+.button3:hover {
+  color: white;
+}
+
+.click:focus{
+  color: red;
+}
+
 /*Button css*/
 .wrap {
   padding-top: 1rem;
@@ -470,7 +510,7 @@ body {
 }
 
 .button {
-  width: 140px;
+  width: 88px;
   height: 45px;
   font-family: 'Roboto', sans-serif;
   font-size: 11px;
