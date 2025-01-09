@@ -41,8 +41,8 @@
           <div>
             <table class="table">
               <tr>
-                <td>249.50 x 2 nights</td>
-                <td class="price">499.00 USD</td>
+                <td>White Nemesis</td>
+                <td class="price">1,000,019.00 USD</td>
               </tr>
               <tr>
                 <td>Discount</td>
@@ -50,7 +50,7 @@
               </tr>
               <tr>
                 <td>Subtotal</td>
-                <td class="price">499.00 USD</td>
+                <td class="price">1,000,019.00 USD</td>
               </tr>
               <tr>
                 <td>Tax</td>
@@ -58,7 +58,7 @@
               </tr>
               <tr class="total">
                 <td>Total</td>
-                <td class="price">546.41 USD</td>
+                <td class="price">1,000,066.41 USD</td>
               </tr>
             </table>
           </div>
@@ -141,11 +141,32 @@
                 type="text"
                 required
               />
-              <a class="cvv-info" href="#">What is CVV?</a>
-            </div>
+              <button class="open-button" onclick="openForm()">Open Form</button>
 
+              <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+            </div>
+            <div class="box">
+              <a href="#popup-box">Click to Open Popup Box!</a>
+          </div>
+          <div id="popup-box" class="modal">
+              <div class="content">
+                  <h1 style="color: rgb(149, 25, 25)">
+                      YOU HAVE BOOKED SECURELY
+                  </h1>
+                  <p style="color: rgb(131, 131, 131);">WELCOME TO THE FAMILY!</p>
+                  <a href="#" style="
+                              position: absolute;
+                              top: 10px;
+                              right: 10px;
+                              color: black;
+                              font-size: 30px;
+                              text-decoration: none;
+                          ">&times;</a>
+              </div>
+          </div>
             <button class="btn">
-              <i class="fa-solid fa-lock"></i> Book Securely
+              <i class="fa-solid fa-lock" ></i> Book Securely
             </button>
           </form>
 
